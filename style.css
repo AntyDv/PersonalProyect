@@ -1,0 +1,103 @@
+h1{
+    font-style: oblique;
+    font-family:  'Montserrat',sans-serif;
+    color: burlywood;
+}
+.tooglee{
+    width: 200px;
+    height: 90px;
+    background:linear-gradient(180deg,#2B4485 0%,#AFCAFF 100%);
+    border-radius: 50px;
+    box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.08), 
+        0 4px 16px rgba(43, 68, 133, 0.25),  
+        0 2px 6px rgba(0, 0, 0, 0.1);  
+    position: relative;
+}
+.star{
+    position: absolute;
+}
+.one{
+    width: 13.65px;
+    height: 13.08px;
+    color: rgb(12, 102, 236);
+    transform: rotate(10deg);
+    left: 105.64px;
+    top: 24.29px;
+}
+.two{
+    width: 8.28px;
+    height: 7.93px;
+    color: rgb(9, 78, 75);
+    transform: rotate(-11.14deg);
+    left: 138.86px;
+    top: 31.9px;
+}
+.three{
+    width: 4.64px;
+    height: 4.44px;
+    color: rgb(246, 250, 1);
+    transform: rotate(-11.14deg);
+    left: 161.64px;
+    top: 20.7px;
+}
+.four{
+    width: 5.8px;
+    height: 5.56px;
+    color: rgb(196, 241, 30);
+    transform: rotate(41.19deg);
+    left: 127px;
+    top: 8px;
+}
+.five{
+    width: 3.33px;
+    height: 3.19px;
+    color: rgb(174, 13, 238);
+    transform: rotate(10deg);
+    left: 89px;
+    top: 12px;
+}
+.sun{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(180deg,#FFC123 0%, #F8832E 100%);
+    left: 9px;
+    top: 9px;
+    position: absolute;
+}
+.ssun{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ffbf24 0%, #f4924b 100%);
+    left: 6px;
+    top: 6px;
+    position: absolute;
+}
+
+.tsun{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #FF9255;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+.fsun{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFBF24 0%, #F4924B 100%);
+    left: 6px;
+    top: 6px;
+    position: absolute;
+}
+.masksun{
+    width: 70px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
